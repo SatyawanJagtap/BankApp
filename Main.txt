@@ -1,0 +1,19 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Account ac = new Account("abcd", 0,"5125","abcd@gmail.com","98_____789");
+
+        ac.DepositMoney(50);
+        ac.DepositMoney(150);
+
+        ac.WithDrawMoney(100);
+        System.out.println(ac.getName()); // you can get the name
+        System.out.println(ac.getNumber());
+        System.out.println(ac.getPhoneNumber());
+        System.out.println(ac.getEmail());
+
+    }
+}
